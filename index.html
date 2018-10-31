@@ -1,23 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>von MUTINDA - Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/simplex/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
+
 <body>
-    <div class="container">
-        <div class="row">
-            hi von !
-        </div>
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="black">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">My Portfolio</a>
+                    <ul class="right hide-on-med-and-down" id="navList">
+                        <li><a href="#landing">Home</a></li>
+                        <li><a href="#intro">About Me</a></li>
+                        <li><a href="#work">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
+    <!-- ./Navbar -->
 
 
 
 
+
+    <!-- Landing Screen -->
+    <div class="section" id="landing">
+        <h5 id="mainText" class="center">My Name Is</h5>
+        <h1 style="color: white;" class="center">
+            MAXWELL von <b>MUTINDA</b>
+        </h1>
+        <h6 id="mainText" class="center">A Full Stack Developer</h6>
+    </div>
+    <!-- ./ Landing screen -->
+
+    <!-- .fixed button -->
+    <div class="fixed-action-btn vertical">
+        <a class="btn-floating btn-large  blue-grey darken-4">
+            <i class="fa fa-globe"></i>
+        </a>
+        <ul>
+            <li><a class="btn-floating  blue darken-4"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="btn-floating cyan lighten-1"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="btn-floating grey darken-3"> <i class="fa fa-github"></i></a></li>
+            <li><a class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+    <!-- ./fixed button -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"> </script>
     <script src="main.js"></script>
 </body>
+
 </html>
