@@ -16,3 +16,19 @@ body {
 #mainText{
     margin-top: 30vh;
 }
+
+
+/* FONTS */
+
+.inconso{
+    font-family: 'Inconsolata', monospace;
+}
+
+.pacifico{
+   font-family: 'Pacifico', cursive;
+}
+
+
+.charmon{
+    font-family: 'Charmonman', cursive;
+}
