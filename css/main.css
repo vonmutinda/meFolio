@@ -6,12 +6,13 @@ body {
 
 #landing{
     height: 100vh;
-    background-image: url('URL to your image here!');
+    background-image: url('../images/coding.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     z-index: -1;
+    opacity: .7;
 }
 #mainText{
     margin-top: 30vh;
@@ -31,4 +32,35 @@ body {
 
 .charmon{
     font-family: 'Charmonman', cursive;
+}
+
+
+#skillsets{
+    height: 100vh;
+    background-image: url('../images/skill.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    z-index: -1;
+    opacity: .8;
+}
+
+
+
+.eyedrop{
+    background-color: black;
+    -webkit-border-top-left-radius: 100px;
+    -webkit-border-bottom-right-radius: 100px;
+    -moz-border-radius-topleft: 100px;
+    -moz-border-radius-bottomright: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+
+
+#about{
+    height: 600px;
+    padding-top: 5%;
 }
